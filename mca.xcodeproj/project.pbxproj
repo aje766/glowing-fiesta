@@ -24,6 +24,7 @@
 		A90ED04A1CAD3DE4002BC706 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0421CAD3DE4002BC706 /* AFURLRequestSerialization.m */; };
 		A90ED04B1CAD3DE4002BC706 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0441CAD3DE4002BC706 /* AFURLResponseSerialization.m */; };
 		A90ED04C1CAD3DE4002BC706 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0461CAD3DE4002BC706 /* AFURLSessionManager.m */; };
+		A90ED04F1CAD40AC002BC706 /* ImageLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED04E1CAD40AC002BC706 /* ImageLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		A90ED0441CAD3DE4002BC706 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		A90ED0451CAD3DE4002BC706 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		A90ED0461CAD3DE4002BC706 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A90ED04D1CAD40AC002BC706 /* ImageLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLibrary.h; sourceTree = "<group>"; };
+		A90ED04E1CAD40AC002BC706 /* ImageLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 			children = (
 				A90ED0391CAD3DD7002BC706 /* AFNetwork */,
 				A90ED0381CAD3D99002BC706 /* HTMLParser */,
+				A90ED04D1CAD40AC002BC706 /* ImageLibrary.h */,
+				A90ED04E1CAD40AC002BC706 /* ImageLibrary.m */,
 				A90ECFFE1CAD1D58002BC706 /* AppDelegate.swift */,
 				A90ED0001CAD1D58002BC706 /* ViewController.swift */,
 				A90ED0021CAD1D58002BC706 /* Main.storyboard */,
@@ -334,6 +339,7 @@
 				A90ED0481CAD3DE4002BC706 /* AFNetworkReachabilityManager.m in Sources */,
 				A90ED0491CAD3DE4002BC706 /* AFSecurityPolicy.m in Sources */,
 				A90ED0471CAD3DE4002BC706 /* AFHTTPSessionManager.m in Sources */,
+				A90ED04F1CAD40AC002BC706 /* ImageLibrary.m in Sources */,
 				A90ED0351CAD1DDB002BC706 /* HTMLData.m in Sources */,
 				A90ED0371CAD1DDB002BC706 /* HTMLParser.m in Sources */,
 			);
