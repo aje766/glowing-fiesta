@@ -14,6 +14,10 @@
 		A90ED0091CAD1D58002BC706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90ED0071CAD1D58002BC706 /* LaunchScreen.storyboard */; };
 		A90ED0141CAD1D58002BC706 /* mcaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0131CAD1D58002BC706 /* mcaTests.swift */; };
 		A90ED01F1CAD1D58002BC706 /* mcaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90ED01E1CAD1D58002BC706 /* mcaUITests.swift */; };
+		A90ED02D1CAD1D70002BC706 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A90ED02C1CAD1D70002BC706 /* libxml2.tbd */; };
+		A90ED0351CAD1DDB002BC706 /* HTMLData.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED02F1CAD1DDB002BC706 /* HTMLData.m */; };
+		A90ED0361CAD1DDB002BC706 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0321CAD1DDB002BC706 /* HTMLNode.m */; };
+		A90ED0371CAD1DDB002BC706 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0341CAD1DDB002BC706 /* HTMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 		A90ED01A1CAD1D58002BC706 /* mcaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mcaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90ED01E1CAD1D58002BC706 /* mcaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcaUITests.swift; sourceTree = "<group>"; };
 		A90ED0201CAD1D58002BC706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90ED02C1CAD1D70002BC706 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A90ED02E1CAD1DDA002BC706 /* mca-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mca-Bridging-Header.h"; sourceTree = "<group>"; };
+		A90ED02F1CAD1DDB002BC706 /* HTMLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLData.m; sourceTree = "<group>"; };
+		A90ED0301CAD1DDB002BC706 /* HTMLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLData.h; sourceTree = "<group>"; };
+		A90ED0311CAD1DDB002BC706 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		A90ED0321CAD1DDB002BC706 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		A90ED0331CAD1DDB002BC706 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		A90ED0341CAD1DDB002BC706 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90ED02D1CAD1D70002BC706 /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 		A90ECFF21CAD1D58002BC706 = {
 			isa = PBXGroup;
 			children = (
+				A90ED02C1CAD1D70002BC706 /* libxml2.tbd */,
 				A90ECFFD1CAD1D58002BC706 /* mca */,
 				A90ED0121CAD1D58002BC706 /* mcaTests */,
 				A90ED01D1CAD1D58002BC706 /* mcaUITests */,
@@ -97,12 +111,19 @@
 		A90ECFFD1CAD1D58002BC706 /* mca */ = {
 			isa = PBXGroup;
 			children = (
+				A90ED02F1CAD1DDB002BC706 /* HTMLData.m */,
+				A90ED0301CAD1DDB002BC706 /* HTMLData.h */,
+				A90ED0311CAD1DDB002BC706 /* HTMLNode.h */,
+				A90ED0321CAD1DDB002BC706 /* HTMLNode.m */,
+				A90ED0331CAD1DDB002BC706 /* HTMLParser.h */,
+				A90ED0341CAD1DDB002BC706 /* HTMLParser.m */,
 				A90ECFFE1CAD1D58002BC706 /* AppDelegate.swift */,
 				A90ED0001CAD1D58002BC706 /* ViewController.swift */,
 				A90ED0021CAD1D58002BC706 /* Main.storyboard */,
 				A90ED0051CAD1D58002BC706 /* Assets.xcassets */,
 				A90ED0071CAD1D58002BC706 /* LaunchScreen.storyboard */,
 				A90ED00A1CAD1D58002BC706 /* Info.plist */,
+				A90ED02E1CAD1DDA002BC706 /* mca-Bridging-Header.h */,
 			);
 			path = mca;
 			sourceTree = "<group>";
@@ -256,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90ED0361CAD1DDB002BC706 /* HTMLNode.m in Sources */,
 				A90ED0011CAD1D58002BC706 /* ViewController.swift in Sources */,
 				A90ECFFF1CAD1D58002BC706 /* AppDelegate.swift in Sources */,
+				A90ED0351CAD1DDB002BC706 /* HTMLData.m in Sources */,
+				A90ED0371CAD1DDB002BC706 /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +423,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = mca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mca/mca-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = mca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mca/mca-Bridging-Header.h";
 			};
 			name = Release;
 		};
