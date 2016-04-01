@@ -25,6 +25,12 @@
 		A90ED04B1CAD3DE4002BC706 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0441CAD3DE4002BC706 /* AFURLResponseSerialization.m */; };
 		A90ED04C1CAD3DE4002BC706 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0461CAD3DE4002BC706 /* AFURLSessionManager.m */; };
 		A90ED04F1CAD40AC002BC706 /* ImageLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED04E1CAD40AC002BC706 /* ImageLibrary.m */; };
+		A90ED0761CAEA84C002BC706 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED06D1CAEA84C002BC706 /* APIManager.m */; };
+		A90ED0771CAEA84C002BC706 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90ED06E1CAEA84C002BC706 /* Service.swift */; };
+		A90ED0781CAEA84C002BC706 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90ED06F1CAEA84C002BC706 /* ServiceAPI.swift */; };
+		A90ED0791CAEA84C002BC706 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0711CAEA84C002BC706 /* TFHpple.m */; };
+		A90ED07A1CAEA84C002BC706 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0731CAEA84C002BC706 /* TFHppleElement.m */; };
+		A90ED07B1CAEA84C002BC706 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0751CAEA84C002BC706 /* XPathQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,16 @@
 		A90ED0461CAD3DE4002BC706 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		A90ED04D1CAD40AC002BC706 /* ImageLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLibrary.h; sourceTree = "<group>"; };
 		A90ED04E1CAD40AC002BC706 /* ImageLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLibrary.m; sourceTree = "<group>"; };
+		A90ED06C1CAEA84C002BC706 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		A90ED06D1CAEA84C002BC706 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		A90ED06E1CAEA84C002BC706 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A90ED06F1CAEA84C002BC706 /* ServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		A90ED0701CAEA84C002BC706 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		A90ED0711CAEA84C002BC706 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		A90ED0721CAEA84C002BC706 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		A90ED0731CAEA84C002BC706 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		A90ED0741CAEA84C002BC706 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		A90ED0751CAEA84C002BC706 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +186,16 @@
 			isa = PBXGroup;
 			children = (
 				A90ED02F1CAD1DDB002BC706 /* HTMLData.m */,
+				A90ED06C1CAEA84C002BC706 /* APIManager.h */,
+				A90ED06D1CAEA84C002BC706 /* APIManager.m */,
+				A90ED06E1CAEA84C002BC706 /* Service.swift */,
+				A90ED06F1CAEA84C002BC706 /* ServiceAPI.swift */,
+				A90ED0701CAEA84C002BC706 /* TFHpple.h */,
+				A90ED0711CAEA84C002BC706 /* TFHpple.m */,
+				A90ED0721CAEA84C002BC706 /* TFHppleElement.h */,
+				A90ED0731CAEA84C002BC706 /* TFHppleElement.m */,
+				A90ED0741CAEA84C002BC706 /* XPathQuery.h */,
+				A90ED0751CAEA84C002BC706 /* XPathQuery.m */,
 				A90ED0301CAD1DDB002BC706 /* HTMLData.h */,
 				A90ED0311CAD1DDB002BC706 /* HTMLNode.h */,
 				A90ED0321CAD1DDB002BC706 /* HTMLNode.m */,
@@ -330,15 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90ED07A1CAEA84C002BC706 /* TFHppleElement.m in Sources */,
 				A90ED04A1CAD3DE4002BC706 /* AFURLRequestSerialization.m in Sources */,
+				A90ED0771CAEA84C002BC706 /* Service.swift in Sources */,
 				A90ED0361CAD1DDB002BC706 /* HTMLNode.m in Sources */,
+				A90ED07B1CAEA84C002BC706 /* XPathQuery.m in Sources */,
 				A90ED0011CAD1D58002BC706 /* ViewController.swift in Sources */,
 				A90ECFFF1CAD1D58002BC706 /* AppDelegate.swift in Sources */,
 				A90ED04C1CAD3DE4002BC706 /* AFURLSessionManager.m in Sources */,
 				A90ED04B1CAD3DE4002BC706 /* AFURLResponseSerialization.m in Sources */,
+				A90ED0791CAEA84C002BC706 /* TFHpple.m in Sources */,
 				A90ED0481CAD3DE4002BC706 /* AFNetworkReachabilityManager.m in Sources */,
 				A90ED0491CAD3DE4002BC706 /* AFSecurityPolicy.m in Sources */,
 				A90ED0471CAD3DE4002BC706 /* AFHTTPSessionManager.m in Sources */,
+				A90ED0781CAEA84C002BC706 /* ServiceAPI.swift in Sources */,
+				A90ED0761CAEA84C002BC706 /* APIManager.m in Sources */,
 				A90ED04F1CAD40AC002BC706 /* ImageLibrary.m in Sources */,
 				A90ED0351CAD1DDB002BC706 /* HTMLData.m in Sources */,
 				A90ED0371CAD1DDB002BC706 /* HTMLParser.m in Sources */,
