@@ -1,0 +1,297 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".subheader1").toggle();
+            $(".subheader2").toggle();
+                          
+            $(".header1").click(function(){
+                $(".subheader1").toggle();
+            });
+
+            $(".header2").click(function(){
+                $(".subheader2").toggle();
+            });
+        });
+    </script>
+<!--    21A34C-->
+
+    <style>
+        .header1, .header2
+        {
+            background-color: #21A34C;
+            font-weight: bold;
+        }
+        .subtitle
+        {
+            background-color: #21A34C;
+            text-align : center;
+        }
+        .subtitledata
+        {
+            text-align : center;
+        }
+    
+    table { border-collapse:collapse; border: 1px solid #21A34C; }
+    table td { border: 2px solid #234900; }
+    </style>
+</head>
+<body>
+<table style="width:100%;" border="1" cellspacing = "0">
+  
+  <!-- row 1 start -->
+  <tr class="header1" > 
+    <td colspan = "2">Due Dates</td>
+    
+  </tr>
+  <!-- row 1 end -->
+  <!-- row 2 start -->
+  <tr class="subheader1">
+    <td>Particulars</td>
+    <td>Due Date</td> 
+    
+  </tr>
+  <!-- row 2 end -->
+
+  <tr class="subheader1">
+    <td colspan = "2" class="subtitle">Regular Return</td>
+    
+    
+  </tr>
+
+  <tr class="subheader1">
+    <td>Corporate Assessee under Transfer Pricing</td>
+    <td>30-Nov</td>     
+  </tr>
+
+
+  <tr class="subheader1">
+    <td>Other Corporate Assessee </td>
+    <td>30-Sep</td>     
+  </tr>
+
+    <tr class="subheader1">
+    <td>Other Corporate Assessee For A.Y 2015-16</td>
+    <td>31-Oct</td>     
+  </tr>
+
+  <tr class="subheader1">
+    <td>For non Corporate Assessee Under Audit</td>
+    <td>30-Sep</td>     
+  </tr>
+
+    <tr class="subheader1">
+    <td>For non Corporate Assessee under Audit for A.Y. 2015-16</td>
+    <td>30-Oct</td>     
+  </tr>
+
+
+    <tr class="subheader1">
+    <td>Other Assessee</td>
+    <td>31-Jul</td>     
+  </tr>
+
+    <tr class="subheader1">
+    <td>Other Assessee for A.Y. 2015-16</td>
+    <td>07-Sep</td>     
+  </tr>
+
+    <tr class="subheader1">
+    <td colspan="2" class="subtitle">Revised Return</td>
+    
+  </tr>
+
+
+<tr class="subheader1">
+    <td colspan="2" class="subtitledata">Upto One year from the end of the relevant Assessment Year </td>
+    
+  </tr>
+
+<tr class="subheader1">
+    <td colspan="2" class="subtitle">Belated Return </td>
+    
+  </tr>
+
+<tr class="subheader1">
+    <td colspan="2" class="subtitledata">Upto One year from the end of the relevant Assessment Year </td>
+    
+  </tr>
+
+
+<tr class="header2">
+    <td colspan = "2">Tax Rate </td>
+    
+  </tr>
+
+<tr class="subheader2">
+    <td class="subtitle" style="text-align : left;">Particulars </td>
+    <td class="subtitle" style="text-align : right;">Rate</td>
+  </tr>
+
+<tr class="subheader2">
+    <td>Short term capital gain covered by section 111A(Sale of equity shares) </td>
+    <td>15%</td>     
+  </tr>
+
+
+<tr class="subheader2">
+    <td>Any other short term capital gain  </td>
+    <td>Slab Rates</td>     
+  </tr>
+
+<tr class="subheader2">
+    <td>Long term capital gains with indexation  </td>
+    <td>20%</td>     
+  </tr>
+
+
+<tr class="subheader2">
+    <td>Long term capital gain without indexation  </td>
+    <td>10%</td>     
+  </tr>
+
+  <tr class="subheader2">
+    <td>Interest received from an infrastructure debt fund referred to in section 10(47)   </td>
+    <td>5%</td>     
+  </tr>
+
+
+  <tr class="subheader2">
+    <td>Interest received from an Indian company specified in section 194LC  </td>
+    <td>5%</td>     
+  </tr>
+
+
+
+  <tr class="subheader2">
+    <td>Interest of the nature and extent referred to in section 194LD  </td>
+    <td>5%</td>     
+  </tr>
+
+
+
+  <tr class="subheader2">
+    <td>Long term capital of an overseas financial organization on transfer of units purchased in foreign currency </td>
+    <td>10%</td>  
+
+
+
+  <tr class="subheader2">
+    <td>Tax on income and capital gain from bonds or Global Dipository Receipts purchased in foreign currency </td>
+    <td>10%</td>     
+  </tr>   
+
+
+
+  <tr class="subheader2">
+    <td>Interest referred to in section 194LD </td>
+    <td>5%</td>     
+  </tr> 
+
+
+  <tr class="subheader2">
+    <td>Other income except dividends referred to in section 115 O </td>
+    <td>20%</td>     
+  </tr> 
+
+
+  <tr class="subheader2">
+    <td>Profits and gains of life insurance business </td>
+    <td>12.5%</td>     
+  </tr> 
+
+
+  <tr class="subheader2">
+    <td>Winning from lotteries, crossword puzzles, gambling etc </td>
+    <td>30%</td>     
+  </tr> 
+
+  <tr class="subheader2">
+    <td>Income of a non resident foreign citizen sportsman by any game in India/advertisement/contribution of articles relating to any game/Income of a non resident sport association by way of guarantee money </td>
+    <td>20%</td>     
+  </tr> 
+  </tr>
+
+  <tr class="subheader2">
+    <td>Income of non resident foreign citizen (being an entertainer) for performance in India </td>
+    <td>20%</td>     
+  </tr> 
+
+  <tr class="subheader2">
+    <td>Anonymous donation </td>
+    <td>30%</td>     
+  </tr> 
+
+
+  <tr class="subheader2">
+    <td>Income of an Indian company by way of dividends declared, distributed or paid by a specified foreign company (in which the Indian company holds 26 per cent or more of equity share capital) </td>
+    <td>15%</td>     
+  </tr> 
+
+
+
+  <tr class="subheader2">
+    <td>Income referred to in section 68, 69, 69A, 69B, 69C and 69D </td>
+    <td>30%</td>     
+  </tr> 
+
+    <tr class="subheader2">
+    <td>Income from foreign exchange assets of non resident Indian </td>
+    <td>20%</td>     
+  </tr> 
+
+
+    <tr class="subheader2">
+    <td>Long Term Capital Gain of non resident Indian; </td>
+    <td>10%</td>     
+  </tr> 
+
+    <tr class="subheader2">
+    <td>Minimum Alternate Tax </td>
+    <td>18.5%</td>     
+  </tr> 
+
+
+    <tr class="subheader2">
+    <td>Alternate Minimum Tax </td>
+    <td>18.5%</td>     
+  </tr> 
+
+
+    <tr class="subheader2">
+    <td>Income of private discretionary where shares of beneficiaries are interminate </td>
+    <td>30%</td>     
+  </tr> 
+
+  <tr class="subheader2">
+    <td>Income of an oral trust </td>
+    <td>30%</td>     
+  </tr> 
+
+    <tr class="subheader2">
+    <td>Income of a firm </td>
+    <td>30%</td>     
+  </tr> 
+
+  <tr class="subheader2">
+    <td>Income of an association of persons or body of individuals if shares of members are unknown </td>
+    <td>30%</td>     
+  </tr> 
+
+    <tr class="subheader2">
+    <td>Dividend received by a foreign company or a nonresident non corporate assessee  </td>
+    <td>20%</td>     
+  </tr> 
+
+
+  
+
+</table>
+</body>
+</html>
+
+
+
+
+

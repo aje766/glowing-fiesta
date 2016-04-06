@@ -31,6 +31,11 @@
 		A90ED0791CAEA84C002BC706 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0711CAEA84C002BC706 /* TFHpple.m */; };
 		A90ED07A1CAEA84C002BC706 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0731CAEA84C002BC706 /* TFHppleElement.m */; };
 		A90ED07B1CAEA84C002BC706 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A90ED0751CAEA84C002BC706 /* XPathQuery.m */; };
+		A9AA6F1A1CB5187900083A3B /* Excise.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA6F151CB5187900083A3B /* Excise.txt */; };
+		A9AA6F1B1CB5187900083A3B /* incomeTax.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA6F161CB5187900083A3B /* incomeTax.txt */; };
+		A9AA6F1C1CB5187900083A3B /* Service Tax.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA6F171CB5187900083A3B /* Service Tax.txt */; };
+		A9AA6F1D1CB5187900083A3B /* TCS.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA6F181CB5187900083A3B /* TCS.txt */; };
+		A9AA6F1E1CB5187900083A3B /* TDS.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9AA6F191CB5187900083A3B /* TDS.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,11 @@
 		A90ED0731CAEA84C002BC706 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		A90ED0741CAEA84C002BC706 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		A90ED0751CAEA84C002BC706 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		A9AA6F151CB5187900083A3B /* Excise.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Excise.txt; sourceTree = "<group>"; };
+		A9AA6F161CB5187900083A3B /* incomeTax.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = incomeTax.txt; sourceTree = "<group>"; };
+		A9AA6F171CB5187900083A3B /* Service Tax.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Service Tax.txt"; sourceTree = "<group>"; };
+		A9AA6F181CB5187900083A3B /* TCS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TCS.txt; sourceTree = "<group>"; };
+		A9AA6F191CB5187900083A3B /* TDS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TDS.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +159,11 @@
 		A90ECFFD1CAD1D58002BC706 /* mca */ = {
 			isa = PBXGroup;
 			children = (
+				A9AA6F151CB5187900083A3B /* Excise.txt */,
+				A9AA6F161CB5187900083A3B /* incomeTax.txt */,
+				A9AA6F171CB5187900083A3B /* Service Tax.txt */,
+				A9AA6F181CB5187900083A3B /* TCS.txt */,
+				A9AA6F191CB5187900083A3B /* TDS.txt */,
 				A90ED0391CAD3DD7002BC706 /* AFNetwork */,
 				A90ED0381CAD3D99002BC706 /* HTMLParser */,
 				A90ED04D1CAD40AC002BC706 /* ImageLibrary.h */,
@@ -329,7 +344,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AA6F1E1CB5187900083A3B /* TDS.txt in Resources */,
+				A9AA6F1B1CB5187900083A3B /* incomeTax.txt in Resources */,
+				A9AA6F1C1CB5187900083A3B /* Service Tax.txt in Resources */,
+				A9AA6F1D1CB5187900083A3B /* TCS.txt in Resources */,
 				A90ED0091CAD1D58002BC706 /* LaunchScreen.storyboard in Resources */,
+				A9AA6F1A1CB5187900083A3B /* Excise.txt in Resources */,
 				A90ED0061CAD1D58002BC706 /* Assets.xcassets in Resources */,
 				A90ED0041CAD1D58002BC706 /* Main.storyboard in Resources */,
 			);

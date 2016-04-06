@@ -1,0 +1,112 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                          $(".subheader1").toggle();
+                          $(".subheader2").toggle();
+                          
+                          $(".header1").click(function(){
+                                              $(".subheader1").toggle();
+                                              });
+                          
+                          $(".header2").click(function(){
+                                              $(".subheader2").toggle();
+                                              });
+                          });
+        </script>
+    <!--    21A34C-->
+    
+    <style>
+        .header1, .header2
+        {
+            background-color: #21A34C;
+            font-weight: bold;
+        }
+    .subtitle
+    {
+        background-color: #21A34C;
+        text-align : center;
+    }
+    .subtitledata
+    {
+        text-align : center;
+    }
+    
+    table { border-collapse:collapse; border: 1px solid #21A34C; }
+    table td { border: 2px solid #234900; }
+    </style>
+    
+</head>
+<body>
+<table style="width:100%" border="1" cellspacing = "0">
+  
+  <!-- row 1 start -->
+   <tr class="header1" >
+    <td colspan = "2">PAYMENTS</td>
+  </tr>
+  <!-- row 1 end -->
+  <!-- row 2 start -->
+
+
+<tr class="subheader1">
+    <td class="subtitle" style="text-align : left;">Particulars</td>
+    <td class="subtitle" style="text-align : right;"> Due Date</td>
+  </tr>
+  
+<tr class="subheader1">
+    <td >April to Feb</td>
+    <td style="text-align : right;">7th  of next month</td>
+  </tr>
+
+<tr class="subheader1">
+    <td >March </td>
+    <td style="text-align : right;">30th April</td>
+  </tr>
+
+  <tr class="header2">
+    <td colspan = "2">RETURNS</td>
+ 
+  </tr>
+
+  <tr class="subheader2">
+    <td class="subtitle" style="text-align : left;">Frequency</td>
+    <td class="subtitle" style="text-align : right;">Due Date</td>
+  </tr>
+
+<tr class="subheader2">
+    <td >Qtr- 1 (April - Jun) </td>
+    <td style="text-align : right;">15th July</td>
+  </tr>
+
+
+
+<tr class="subheader2">
+    <td >Qtr- 2 (July - Sep) </td>
+    <td style="text-align : right;">15th Oct</td>
+  </tr>
+
+
+<tr class="subheader2">
+    <td >Qtr- 3 (Oct - Dec) </td>
+    <td style="text-align : right;">15th Jan</td>
+  </tr>
+
+
+
+<tr class="subheader2">
+    <td >Qtr- 4 (Jan - March) </td>
+    <td style="text-align : right;">15th May </td>
+  </tr>
+
+
+
+
+</table>
+</body>
+</html>
+
+
+
+
+
